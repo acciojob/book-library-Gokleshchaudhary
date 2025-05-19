@@ -1,37 +1,36 @@
 body {
-    background-color: #f8f8f8;
-    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Body ka background color */
+    font-family: Arial, sans-serif; /* Font style */
 }
 
 .book-library {
-    background-color: #ffffff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    background-color: #ffffff; /* Library ka background color */
+    padding: 20px; /* Padding around the library */
+    display: flex; /* Flexbox layout */
+    justify-content: space-around; /* Space around books */
+    flex-wrap: wrap; /* Wrap books to the next line if needed */
 }
 
 .book {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    text-align: center;
+    background-color: #ffffff; /* Book block ka background color */
+    border: 1px solid #dddddd; /* Border around book */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside book block */
+    margin: 10px; /* Margin between book blocks */
+    width: 200px; /* Width of each book block */
+    text-align: center; /* Center align text */
 }
 
 .book img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Image ka width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .author {
-    color: #777777;
+    color: #777777; /* Author ka color */
 }
 
 .price {
-    color: #2ecc71;
-    font-weight: bold;
-	background-color:green;
+    color: #2ecc71; /* Price ka color */
+    font-weight: bold; /* Price ko bold karna */
 }
