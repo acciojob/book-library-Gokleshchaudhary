@@ -33,4 +33,5 @@ body {
 .price {
     color: #2ecc71;
     font-weight: bold;
+	background-color:green;
 }
