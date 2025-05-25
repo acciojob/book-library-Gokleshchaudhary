@@ -62,7 +62,7 @@ body {
 }
 
 .book .price {
-    background-color: #2ecc71;
+    background-color: green;
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
