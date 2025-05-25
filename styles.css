@@ -4,6 +4,15 @@
     padding: 5px; /* Padding around the text */
     border-radius: 3px; /* Rounded corners */
     display: inline-block; /* Make the background fit the text */
+    width: 100%; /* Make it take the full width of the parent */
+    box-sizing: border-box; /* Include padding in the width */
+}
+.price {
+    color: #2ecc71; /* Green text color */
+    border: 2px solid #2ecc71; /* Green border */
+    padding: 5px; /* Padding around the text */
+    border-radius: 3px; /* Rounded corners */
+    display: inline-block; /* Fit the background to the text */
 }
 body {
     background-color: #f8f8f8;
@@ -38,9 +47,9 @@ body {
 }
 
 .price {
-    color: #ffffff; /* Text color */
-    background-color: #2ecc71; /* Green background */
-    padding: 5px; /* Padding */
+    color: #2ecc71; /* Green text color */
+    border: 2px solid #2ecc71; /* Green border */
+    padding: 5px; /* Padding around the text */
     border-radius: 3px; /* Rounded corners */
     display: inline-block; /* Fit the background to the text */
 }
