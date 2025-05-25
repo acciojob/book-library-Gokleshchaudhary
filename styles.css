@@ -1,54 +1,38 @@
-.price {
-    color: #ffffff; /* Text color for better contrast */
-    background-color: #2ecc71; /* Green background color */
-    padding: 5px; /* Padding around the text */
-    border-radius: 3px; /* Rounded corners */
-    display: inline-block; /* Make the background fit the text */
-    width: 100%; /* Make it take the full width of the parent */
-    box-sizing: border-box; /* Include padding in the width */
-}
-.price {
-    color: #2ecc71; /* Green text color */
-    border: 2px solid #2ecc71; /* Green border */
-    padding: 5px; /* Padding around the text */
-    border-radius: 3px; /* Rounded corners */
-    display: inline-block; /* Fit the background to the text */
-}
 body {
-    background-color: #f8f8f8;
-    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Overall background color */
+    font-family: Arial, sans-serif; /* Font style */
 }
 
 .book-library {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Library background color */
+    padding: 20px; /* Padding around the library */
+    margin: 20px auto; /* Center the library */
+    max-width: 800px; /* Max width for the library */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
 
 .book {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+    border: 1px solid #ddd; /* Border around each book */
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px; /* Margin between books */
+    padding: 10px; /* Padding inside book block */
+    text-align: center; /* Center align text */
 }
 
 .book img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    max-width: 100%; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
 }
 
 .author {
-    color: #777777;
+    color: #777777; /* Author text color */
 }
 
 .price {
-    color: #2ecc71; /* Green text color */
-    border: 2px solid #2ecc71; /* Green border */
+    color: #ffffff; /* White text color */
+    background-color: #2ecc71; /* Green background color */
     padding: 5px; /* Padding around the text */
     border-radius: 3px; /* Rounded corners */
     display: inline-block; /* Fit the background to the text */
