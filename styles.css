@@ -33,6 +33,12 @@ body {
     color: #777777; /* Author text color */
 }
 
+.white {
+	background-color: white;
+	padding: 8px;
+	display: block;
+}
+
 .price {
     color: #ffffff; /* White text color */
     background-color: #2ecc71; /* Green background color */
