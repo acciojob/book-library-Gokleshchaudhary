@@ -21,6 +21,13 @@ body {
 	line-height: 0.5;
 }
 
+.white {
+	background-color: white;
+	padding: 7px;
+	display: block;
+	margin: 15px;
+}
+
 .book img {
     max-width: 100%; /* Image width */
     height: auto; /* Maintain aspect ratio */
@@ -31,12 +38,6 @@ body {
 
 .author {
     color: #777777; /* Author text color */
-}
-
-.white {
-	background-color: white;
-	padding: 8px;
-	display: block;
 }
 
 .price {
