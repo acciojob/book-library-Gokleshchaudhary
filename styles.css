@@ -4,26 +4,29 @@ body {
 }
 
 .book-library {
-    background-color: #ffffff; /* Library background color */
+    background-color: #f8f8f8; /* Library background color */
     padding: 20px; /* Padding around the library */
     margin: 20px auto; /* Center the library */
     max-width: 800px; /* Max width for the library */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+	text-align: center;
 }
 
 .book {
-    border: 1px solid #ddd; /* Border around each book */
     border-radius: 5px; /* Rounded corners */
     margin: 10px; /* Margin between books */
     padding: 10px; /* Padding inside book block */
-    text-align: center; /* Center align text */
+    text-align: left; /* Center align text */
+	line-height: 0.5;
 }
 
 .book img {
     max-width: 100%; /* Image width */
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px; /* Rounded corners */
+	display: block;
+	margin: 0 auto;
 }
 
 .author {
@@ -35,5 +38,7 @@ body {
     background-color: #2ecc71; /* Green background color */
     padding: 5px; /* Padding around the text */
     border-radius: 3px; /* Rounded corners */
-    display: inline-block; /* Fit the background to the text */
+    display: block; /* Fit the background to the text */
+	text-align: center; /* Center the text */
+    margin-top: 10px; /* Space above the price */
 }
