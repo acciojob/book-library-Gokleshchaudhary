@@ -11,16 +11,29 @@
       padding: 20px;
     }
 
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
     .book-library {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
       background-color: #ffffff;
       padding: 20px;
       border-radius: 10px;
       max-width: 1000px;
       margin: auto;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .book-library h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .book-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .book {
@@ -59,7 +72,7 @@
     }
 
     .price-block {
-      color: #2ecc71;
+      color: #2ecc71; /* this is rgb(46, 204, 113) */
       font-weight: bold;
       font-size: 16px;
     }
@@ -67,29 +80,33 @@
 </head>
 <body>
 
+  <h1>My Book Library</h1>
+
   <div class="book-library">
+    <h2>Book Collection</h2>
 
-    <div class="book">
-      <img src="https://m.media-amazon.com/images/I/51ZEaL7+qCL.jpg" alt="Spy in the Amber" />
-      <h3>Spy in the Amber</h3>
-      <div class="author">K. Madavankutty</div>
-      <div class="price-block">₹350</div>
+    <div class="book-container">
+      <div class="book">
+        <img src="https://m.media-amazon.com/images/I/51ZEaL7+qCL.jpg" alt="Spy in the Amber" />
+        <h3>Spy in the Amber</h3>
+        <div class="author">K. Madavankutty</div>
+        <div class="price-block">₹350</div>
+      </div>
+
+      <div class="book">
+        <img src="https://m.media-amazon.com/images/I/51h8rrsTXQL.jpg" alt="Sacred Games" />
+        <h3>Sacred Games</h3>
+        <div class="author">Vikram Chandra</div>
+        <div class="price-block">₹499</div>
+      </div>
+
+      <div class="book">
+        <img src="https://m.media-amazon.com/images/I/91sVKh5k0PL._SL1500_.jpg" alt="Byomkesh Bakshi" />
+        <h3>Byomkesh Bakshi</h3>
+        <div class="author">Sharadindu Bandyopadhyay</div>
+        <div class="price-block">₹299</div>
+      </div>
     </div>
-
-    <div class="book">
-      <img src="https://m.media-amazon.com/images/I/51h8rrsTXQL.jpg" alt="Sacred Games" />
-      <h3>Sacred Games</h3>
-      <div class="author">Vikram Chandra</div>
-      <div class="price-block">₹499</div>
-    </div>
-
-    <div class="book">
-      <img src="https://m.media-amazon.com/images/I/91sVKh5k0PL._SL1500_.jpg" alt="Byomkesh Bakshi" />
-      <h3>Byomkesh Bakshi</h3>
-      <div class="author">Sharadindu Bandyopadhyay</div>
-      <div class="price-block">₹299</div>
-    </div>
-
   </div>
 
 </body>
